@@ -22,8 +22,8 @@ export default function ContactPage() {
     <>
       <PageHeader
         eyebrow="Contact"
-        title="Let's talk about your space."
-        description="Catalogue requests, trade enquiries and custom commissions — our team replies within one business day."
+        title="Let's craft something timeless."
+        description="From bespoke coffee tables to architectural marble pieces - share your inquiry and we will get back to you within one business day."
         image="https://images.unsplash.com/photo-1617104551722-3b2d51366400?q=80&w=2000&auto=format&fit=crop"
       />
 
