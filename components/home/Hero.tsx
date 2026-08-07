@@ -13,8 +13,8 @@ export default function Hero() {
         animate={{ scale: 1 }}
         transition={{ duration: 2.4, ease: [0.22, 1, 0.36, 1] }}
       >
-        <img
-          src="https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=2400&auto=format&fit=crop"
+        <img          src="/images/herotable.png"
+
           alt="Handcrafted marble coffee table in a sunlit luxury living room"
           className="h-full w-full object-cover"
         />
