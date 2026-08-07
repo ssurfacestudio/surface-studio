@@ -5,6 +5,6 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function whatsappLink(message: string) {
-  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "919999999999";
+  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "917792823718";
   return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 }
