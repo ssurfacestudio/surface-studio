@@ -40,7 +40,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Variable | Purpose |
 |---|---|
-| `NEXT_PUBLIC_WHATSAPP_NUMBER` | Country code + number, digits only (e.g. `919999999999`). Used by the floating WhatsApp button and product "WhatsApp Inquiry" CTA. |
+| `NEXT_PUBLIC_WHATSAPP_NUMBER` | Country code + number, digits only (e.g. `917792823718`). Used by the floating WhatsApp button and product "WhatsApp Inquiry" CTA. |
 | `NEXT_PUBLIC_SITE_URL` | Canonical site URL — used in metadata, Open Graph, `sitemap.xml`, and `robots.txt`. |
 | `CONTACT_FORM_ENDPOINT` | Optional. If set, `/api/quote` forwards submissions here (e.g. Formspree, Resend, your CRM webhook). If empty, submissions are logged server-side only. |
 | `NEWSLETTER_ENDPOINT` | Optional. Same idea for `/api/newsletter` (Mailchimp, Klaviyo, Resend, Buttondown, etc.). |
