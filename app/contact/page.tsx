@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 };
 
 const details = [
-  { icon: MapPin, label: "Workshop", value: "Makrana Road, Kishangarh, Rajasthan 305801, India" },
-  { icon: Mail, label: "Email", value: "export@surfacestudio.in" },
-  { icon: Phone, label: "Phone / WhatsApp", value: "+91 99999 99999" },
+  { icon: MapPin, label: "Workshop", value: "Jaipur , Rajasthan , 302015, India" },
+  { icon: Mail, label: "Email", value: "ssurfacestudio@gmail.com" },
+  { icon: Phone, label: "Phone / WhatsApp", value: "+91 77928237189" },
   { icon: Clock, label: "Studio Hours", value: "Mon–Sat, 10:00–19:00 IST" },
 ];
 
