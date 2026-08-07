@@ -32,7 +32,7 @@ export default function ContactPage() {
           <ScrollReveal>
             <p className="font-body text-[12px] uppercase tracking-[0.3em] text-gold">Send an Enquiry</p>
             <h2 className="mt-4 font-display text-3xl text-charcoal dark:text-ivory">
-              We'll get back to you within a day.
+              Begin your custom design .
             </h2>
             <div className="mt-8">
               <ContactForm />
