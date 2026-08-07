@@ -57,10 +57,10 @@ export default function Footer() {
           <p className="font-body text-[12px] uppercase tracking-[0.2em] text-gold">Contact</p>
           <ul className="mt-4 space-y-2 font-body text-sm text-charcoal/70 dark:text-ivory/70">
             <li>Surface Studio Marble Works</li>
-            <li>Makrana Road, Kishangarh</li>
-            <li>Rajasthan 305801, India</li>
-            <li className="pt-2">export@surfacestudio.in</li>
-            <li>+91 99999 99999</li>
+            <li>Jaipur ,Rajasthan 302015</li>
+            <li>India</li>
+            <li className="pt-2">ssurfacestudio@gmail.com</li>
+            <li>+91 7792823718</li>
           </ul>
         </div>
       </div>
