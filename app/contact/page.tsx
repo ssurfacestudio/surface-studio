@@ -59,8 +59,9 @@ export default function ContactPage() {
             <div className="mt-10 aspect-[4/3] overflow-hidden rounded-lg">
               <iframe
                 title="Surface Studio location map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227749.05321101635!2d75.62574595312086!3d26.88511514457059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1786121155631!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"        
-                 className="h-full w-full border-0"loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227749.05321101635!2d75.62574595312086!3d26.88511514457059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1786121155631!5m2!1sen!2sin"            
+                className="h-full w-full border-0"
+                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
