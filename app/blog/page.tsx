@@ -29,7 +29,7 @@ export default function BlogPage() {
         <div className="mx-auto grid max-w-8xl grid-cols-1 gap-10 px-6 md:grid-cols-2 md:px-8 lg:grid-cols-3">
           {blogPosts.map((post, i) => (
             <ScrollReveal key={post.slug} delay={(i % 3) * 0.08}>
-              <Link href={/blog/${post.slug}} className="group block">
+              <Link href={`/blog/${post.slug}`} className="group block">
                 <div className="aspect-[4/3] overflow-hidden rounded-lg">
                   <img
                     src={blogImages[i % blogImages.length]}
