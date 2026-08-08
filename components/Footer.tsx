@@ -60,7 +60,7 @@ export default function Footer() {
             <li>Jaipur ,Rajasthan 302015</li>
             <li>India</li>
             <li className="pt-2">ssurfacestudio@gmail.com</li>
-            <li>+91 7792823718</li>
+            <li>+91 8619233925 / +91 7792823718</li>
           </ul>
         </div>
       </div>
