@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const details = [
   { icon: MapPin, label: "Workshop", value: "Jaipur , Rajasthan , 302015, India" },
   { icon: Mail, label: "Email", value: "ssurfacestudio@gmail.com" },
-  { icon: Phone, label: "Phone / WhatsApp", value: "+91 77928237189" },
+  { icon: Phone, label: "Phone / WhatsApp", value: "+91 8619233925 / +91 7792823718" },
   { icon: Clock, label: "Studio Hours", value: "Mon–Sat, 10:00–19:00 IST" },
 ];
 
