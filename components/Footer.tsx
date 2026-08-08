@@ -15,7 +15,11 @@ export default function Footer() {
             exported to luxury homes across the world.
           </p>
           <div className="mt-6 flex gap-4 text-charcoal/60 dark:text-ivory/60">
-            <a href="#" aria-label="Instagram" className="hover:text-gold"><Instagram className="h-5 w-5" strokeWidth={1.5} /></a>
+            <a 
+            href="https://www.instagram.com/surface_s_"
+            target="_blank"
+            rel="noopener noreferrer"
+             aria-label="Instagram" className="hover:text-gold"><Instagram className="h-5 w-5" strokeWidth={1.5} /></a>
             <a href="#" aria-label="Facebook" className="hover:text-gold"><Facebook className="h-5 w-5" strokeWidth={1.5} /></a>
             <a href="#" aria-label="LinkedIn" className="hover:text-gold"><Linkedin className="h-5 w-5" strokeWidth={1.5} /></a>
           </div>
