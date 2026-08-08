@@ -16,7 +16,7 @@ export default function BlogPage() {
       <PageHeader
         eyebrow="Journal"
         title="Notes on stone, craft and care."
-        image="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2000&auto=format&fit=crop"
+        image="table1.jpeg"
       />
       <section className="bg-white py-20 dark:bg-charcoal md:py-28">
         <div className="mx-auto grid max-w-8xl grid-cols-1 gap-10 px-6 md:grid-cols-2 md:px-8 lg:grid-cols-3 lg:px-12">
