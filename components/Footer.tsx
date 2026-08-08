@@ -19,11 +19,9 @@ export default function Footer() {
             href="https://www.instagram.com/surface_s_"
             target="_blank"
             rel="noopener noreferrer"
-             aria-label="Instagram" className="hover:text-gold"><Instagram className="h-5 w-5" strokeWidth={1.5} /></a>
-            <a href="#" aria-label="Facebook" className="hover:text-gold"><Facebook className="h-5 w-5" strokeWidth={1.5} /></a>
-            <a href="#" aria-label="LinkedIn" className="hover:text-gold"><Linkedin className="h-5 w-5" strokeWidth={1.5} /></a>
+             aria-label="Instagram" className="hover:text-gold"><Instagram className="h-5 w-5" strokeWidth={1.5} />
+             </a>
           </div>
-        </div>
 
         <div>
           <p className="font-body text-[12px] uppercase tracking-[0.2em] text-gold">Collections</p>
