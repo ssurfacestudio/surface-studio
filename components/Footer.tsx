@@ -56,7 +56,7 @@ export default function Footer() {
         <div>
           <p className="font-body text-[12px] uppercase tracking-[0.2em] text-gold">Contact</p>
           <ul className="mt-4 space-y-2 font-body text-sm text-charcoal/70 dark:text-ivory/70">
-            <li>Surface Studio Marble Works</li>
+            <li>Surface Studio</li>
             <li>Jaipur ,Rajasthan 302015</li>
             <li>India</li>
             <li className="pt-2">ssurfacestudio@gmail.com</li>
