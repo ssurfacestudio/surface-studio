@@ -96,7 +96,7 @@ export default function RootLayout({
       addressCountry: "IN",
     },
     sameAs: [
-      "https://instagram.com/surfacestudio.marble",
+      "https://instagram.com/surface_s_",
       "https://facebook.com/surfacestudio",
       "https://linkedin.com/company/surfacestudio",
     ],
