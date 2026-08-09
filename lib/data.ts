@@ -16,6 +16,7 @@ export type Product = {
   collection: string;
   price: string;
   image: string;
+  images: string[];
   description?: string;
   dimensions?: string;
   material?: string;
@@ -80,7 +81,7 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
-// 2. PROCESS STEPS (Used in ManufacturingProcess.tsx)
+// 2. PROCESS STEPS
 export const processSteps = [
   {
     number: "01",
@@ -108,7 +109,7 @@ export const processSteps = [
   },
 ];
 
-// 3. TESTIMONIALS (Used in Testimonials.tsx)
+// 3. TESTIMONIALS
 export const testimonials = [
   {
     quote:
@@ -124,7 +125,7 @@ export const testimonials = [
   },
 ];
 
-// 4. BEST SELLERS (Used in BestSellers.tsx)
+// 4. BEST SELLERS
 export const bestSellers = [
   {
     id: "1",
@@ -133,10 +134,11 @@ export const bestSellers = [
     name: "Calacatta Marble Coffee Table",
     price: "$1,200",
     image: "/images/table1.jpeg",
+    images: ["/images/table1.jpeg"],
   },
 ];
 
-// 5. EXPORT COUNTRIES (Used in GlobalExport.tsx)
+// 5. EXPORT COUNTRIES
 export const exportCountries = [
   "United States",
   "United Kingdom",
@@ -148,7 +150,7 @@ export const exportCountries = [
   "Saudi Arabia",
 ];
 
-// 6. COLLECTIONS (Used in Navbar, FeaturedCollections, etc.)
+// 6. COLLECTIONS
 export const collections: Collection[] = [
   { slug: "coffee-tables", name: "Coffee Tables", description: "Handcrafted marble coffee tables" },
   { slug: "side-tables", name: "Side Tables", description: "Elegant marble side tables" },
@@ -158,7 +160,7 @@ export const collections: Collection[] = [
   { slug: "sculptures", name: "Sculptures", description: "Hand-carved stone sculptures" },
 ];
 
-// 7. PRODUCTS (Used in Product pages)
+// 7. PRODUCTS (with images array added)
 export const products: Product[] = [
   {
     id: "1",
@@ -167,11 +169,12 @@ export const products: Product[] = [
     collection: "coffee-tables",
     price: "$1,200",
     image: "/images/table1.jpeg",
+    images: ["/images/table1.jpeg"],
     description: "Solid Calacatta marble table hand-finished in Rajasthan.",
   },
 ];
 
-// 8. HELPER FUNCTIONS (Used in Dynamic pages and Sitemap)
+// 8. HELPER FUNCTIONS
 export function getCollection(slug: string) {
   return collections.find((c) => c.slug === slug);
 }
