@@ -80,7 +80,23 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
-// 2. BEST SELLERS
+// 2. TESTIMONIALS (Fixes Testimonials.tsx)
+export const testimonials = [
+  {
+    quote:
+      "The craftsmanship of our Calacatta coffee table exceeded our expectations. Truly a masterpiece in our living room.",
+    author: "Sophia Laurent",
+    location: "London, UK",
+  },
+  {
+    quote:
+      "Working with Surface Studio on our custom dining project was seamless. The stone quality and finishing are world-class.",
+    author: "Marcello Rossi",
+    location: "Milan, Italy",
+  },
+];
+
+// 3. BEST SELLERS
 export const bestSellers = [
   {
     id: "1",
@@ -92,7 +108,7 @@ export const bestSellers = [
   },
 ];
 
-// 3. EXPORT COUNTRIES (Fixes GlobalExport.tsx)
+// 4. EXPORT COUNTRIES
 export const exportCountries = [
   "United States",
   "United Kingdom",
@@ -104,7 +120,7 @@ export const exportCountries = [
   "Saudi Arabia",
 ];
 
-// 4. COLLECTIONS
+// 5. COLLECTIONS
 export const collections: Collection[] = [
   { slug: "coffee-tables", name: "Coffee Tables", description: "Handcrafted marble coffee tables" },
   { slug: "side-tables", name: "Side Tables", description: "Elegant marble side tables" },
@@ -114,7 +130,7 @@ export const collections: Collection[] = [
   { slug: "sculptures", name: "Sculptures", description: "Hand-carved stone sculptures" },
 ];
 
-// 5. PRODUCTS
+// 6. PRODUCTS
 export const products: Product[] = [
   {
     id: "1",
@@ -127,7 +143,7 @@ export const products: Product[] = [
   },
 ];
 
-// 6. HELPER FUNCTIONS
+// 7. HELPER FUNCTIONS
 export function getCollection(slug: string) {
   return collections.find((c) => c.slug === slug);
 }
