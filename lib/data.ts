@@ -92,7 +92,19 @@ export const bestSellers = [
   },
 ];
 
-// 3. COLLECTIONS
+// 3. EXPORT COUNTRIES (Fixes GlobalExport.tsx)
+export const exportCountries = [
+  "United States",
+  "United Kingdom",
+  "United Arab Emirates",
+  "Australia",
+  "Canada",
+  "Germany",
+  "France",
+  "Saudi Arabia",
+];
+
+// 4. COLLECTIONS
 export const collections: Collection[] = [
   { slug: "coffee-tables", name: "Coffee Tables", description: "Handcrafted marble coffee tables" },
   { slug: "side-tables", name: "Side Tables", description: "Elegant marble side tables" },
@@ -102,7 +114,7 @@ export const collections: Collection[] = [
   { slug: "sculptures", name: "Sculptures", description: "Hand-carved stone sculptures" },
 ];
 
-// 4. PRODUCTS
+// 5. PRODUCTS
 export const products: Product[] = [
   {
     id: "1",
@@ -115,7 +127,7 @@ export const products: Product[] = [
   },
 ];
 
-// 5. HELPER FUNCTIONS
+// 6. HELPER FUNCTIONS
 export function getCollection(slug: string) {
   return collections.find((c) => c.slug === slug);
 }
