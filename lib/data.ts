@@ -58,3 +58,26 @@ export const blogPosts: BlogPost[] = [
     ],
   },
 ];
+
+// MUST BE EXPORTED FOR BestSellers.tsx
+export const bestSellers = [
+  {
+    id: "1",
+    slug: "calacatta-coffee-table",
+    title: "Calacatta Marble Coffee Table",
+    price: "$1,200",
+    image: "/images/table1.jpeg",
+  },
+];
+
+// MUST BE EXPORTED FOR OTHER COMPONENTS
+export const collections = [
+  { slug: "coffee-tables", name: "Coffee Tables" },
+  { slug: "side-tables", name: "Side Tables" },
+  { slug: "accent-tables", name: "Accent Tables" },
+  { slug: "console-tables", name: "Console Tables" },
+  { slug: "dining-tables", name: "Dining Tables" },
+  { slug: "sculptures", name: "Sculptures" },
+];
+
+export const products = [];
