@@ -80,31 +80,35 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
-// 2. PROCESS STEPS (Fixes ManufacturingProcess.tsx)
+// 2. MANUFACTURING PROCESS (Used in ManufacturingProcess.tsx)
 export const processSteps = [
   {
     number: "01",
     title: "Slab Selection",
-    description: "Hand-picking high-grade natural marble blocks direct from Rajasthan quarries.",
+    description:
+      "Hand-picking high-grade natural marble blocks direct from Rajasthan quarries.",
   },
   {
     number: "02",
     title: "Precision Cutting",
-    description: "Advanced CNC diamond wire cutting tailored to exact dimensional specifications.",
+    description:
+      "Advanced CNC diamond wire cutting tailored to exact dimensional specifications.",
   },
   {
     number: "03",
     title: "Artisanal Finishing",
-    description: "Hand-polishing and edge-detailing by master craftsmen with decades of stone heritage.",
+    description:
+      "Hand-polishing and edge-detailing by master craftsmen with decades of stone heritage.",
   },
   {
     number: "04",
     title: "Quality & Export",
-    description: "Sealed for protection, crate-packaged, and shipped securely around the world.",
+    description:
+      "Sealed for protection, crate-packaged, and shipped securely around the world.",
   },
 ];
 
-// 3. TESTIMONIALS
+// 3. TESTIMONIALS (Used in Testimonials.tsx)
 export const testimonials = [
   {
     quote:
@@ -120,7 +124,7 @@ export const testimonials = [
   },
 ];
 
-// 4. BEST SELLERS
+// 4. BEST SELLERS (Used in BestSellers.tsx)
 export const bestSellers = [
   {
     id: "1",
@@ -132,7 +136,7 @@ export const bestSellers = [
   },
 ];
 
-// 5. EXPORT COUNTRIES
+// 5. EXPORT COUNTRIES (Used in GlobalExport.tsx)
 export const exportCountries = [
   "United States",
   "United Kingdom",
@@ -144,7 +148,7 @@ export const exportCountries = [
   "Saudi Arabia",
 ];
 
-// 6. COLLECTIONS
+// 6. COLLECTIONS (Used in Navbar, FeaturedCollections, etc.)
 export const collections: Collection[] = [
   { slug: "coffee-tables", name: "Coffee Tables", description: "Handcrafted marble coffee tables" },
   { slug: "side-tables", name: "Side Tables", description: "Elegant marble side tables" },
@@ -154,7 +158,7 @@ export const collections: Collection[] = [
   { slug: "sculptures", name: "Sculptures", description: "Hand-carved stone sculptures" },
 ];
 
-// 7. PRODUCTS
+// 7. PRODUCTS (Used in Product pages)
 export const products: Product[] = [
   {
     id: "1",
@@ -167,7 +171,7 @@ export const products: Product[] = [
   },
 ];
 
-// 8. HELPER FUNCTIONS
+// 8. HELPER FUNCTIONS (Used in dynamic pages & Sitemap)
 export function getCollection(slug: string) {
   return collections.find((c) => c.slug === slug);
 }
