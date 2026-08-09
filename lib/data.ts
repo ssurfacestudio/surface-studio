@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
     title: "How to Choose the Right Marble for Your Home",
     excerpt:
       "Calacatta or Carrara? Honed or polished? A practical guide to matching marble to the way a room is actually used.",
-    image: "/image/table1.jpeg", // Updated for Blog Post 1
+    image: "/images/table1.jpeg", // Fixed: /images/
     category: "Guides",
     date: "2026-06-02",
     readTime: "6 min read",
@@ -31,7 +31,7 @@ export const blogPosts: BlogPost[] = [
     title: "Caring for Marble Furniture: A Simple Routine",
     excerpt:
       "Marble is more forgiving than its reputation suggests. Here's the five-minute routine that keeps it that way for decades.",
-    image: "/image/table2.jpeg", // Updated for Blog Post 2
+    image: "/images/table2.jpeg", // Fixed: /images/
     category: "Care",
     date: "2026-05-18",
     readTime: "4 min read",
@@ -47,7 +47,7 @@ export const blogPosts: BlogPost[] = [
     title: "Inside Our Rajasthan Workshop",
     excerpt:
       "A look at the quarries, the cutting floor and the hand-finishing benches where every Surface Studio piece begins.",
-    image: "/image/table3.jpeg", // Updated for Blog Post 3
+    image: "/images/table3.jpeg", // Fixed: /images/
     category: "Craft",
     date: "2026-04-27",
     readTime: "5 min read",
