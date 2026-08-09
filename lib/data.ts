@@ -9,34 +9,13 @@ export type BlogPost = {
   content: string[];
 };
 
-export type Product = {
-  id: string;
-  slug: string;
-  name: string;
-  collection: string;
-  price: string;
-  image: string;
-  description?: string;
-  dimensions?: string;
-  material?: string;
-  inStock?: boolean;
-};
-
-export type Collection = {
-  slug: string;
-  name: string;
-  description?: string;
-  image?: string;
-};
-
-// 1. BLOG POSTS
 export const blogPosts: BlogPost[] = [
   {
     slug: "how-to-choose-marble-for-your-home",
     title: "How to Choose the Right Marble for Your Home",
     excerpt:
       "Calacatta or Carrara? Honed or polished? A practical guide to matching marble to the way a room is actually used.",
-    image: "/images/table1.jpeg",
+    image: "/table1.jpeg", // Updated for Blog Post 1
     category: "Guides",
     date: "2026-06-02",
     readTime: "6 min read",
@@ -52,7 +31,7 @@ export const blogPosts: BlogPost[] = [
     title: "Caring for Marble Furniture: A Simple Routine",
     excerpt:
       "Marble is more forgiving than its reputation suggests. Here's the five-minute routine that keeps it that way for decades.",
-    image: "/images/table2.jpeg",
+    image: "/table2.jpeg", // Updated for Blog Post 2
     category: "Care",
     date: "2026-05-18",
     readTime: "4 min read",
@@ -68,7 +47,7 @@ export const blogPosts: BlogPost[] = [
     title: "Inside Our Rajasthan Workshop",
     excerpt:
       "A look at the quarries, the cutting floor and the hand-finishing benches where every Surface Studio piece begins.",
-    image: "/images/table3.jpeg",
+    image: "/table3.jpeg", // Updated for Blog Post 3
     category: "Craft",
     date: "2026-04-27",
     readTime: "5 min read",
@@ -79,107 +58,3 @@ export const blogPosts: BlogPost[] = [
     ],
   },
 ];
-
-// 2. MANUFACTURING PROCESS (Used in ManufacturingProcess.tsx)
-export const processSteps = [
-  {
-    number: "01",
-    title: "Slab Selection",
-    description:
-      "Hand-picking high-grade natural marble blocks direct from Rajasthan quarries.",
-  },
-  {
-    number: "02",
-    title: "Precision Cutting",
-    description:
-      "Advanced CNC diamond wire cutting tailored to exact dimensional specifications.",
-  },
-  {
-    number: "03",
-    title: "Artisanal Finishing",
-    description:
-      "Hand-polishing and edge-detailing by master craftsmen with decades of stone heritage.",
-  },
-  {
-    number: "04",
-    title: "Quality & Export",
-    description:
-      "Sealed for protection, crate-packaged, and shipped securely around the world.",
-  },
-];
-
-// 3. TESTIMONIALS (Used in Testimonials.tsx)
-export const testimonials = [
-  {
-    quote:
-      "The craftsmanship of our Calacatta coffee table exceeded our expectations. Truly a masterpiece in our living room.",
-    author: "Sophia Laurent",
-    location: "London, UK",
-  },
-  {
-    quote:
-      "Working with Surface Studio on our custom dining project was seamless. The stone quality and finishing are world-class.",
-    author: "Marcello Rossi",
-    location: "Milan, Italy",
-  },
-];
-
-// 4. BEST SELLERS (Used in BestSellers.tsx)
-export const bestSellers = [
-  {
-    id: "1",
-    slug: "calacatta-coffee-table",
-    title: "Calacatta Marble Coffee Table",
-    name: "Calacatta Marble Coffee Table",
-    price: "$1,200",
-    image: "/images/table1.jpeg",
-  },
-];
-
-// 5. EXPORT COUNTRIES (Used in GlobalExport.tsx)
-export const exportCountries = [
-  "United States",
-  "United Kingdom",
-  "United Arab Emirates",
-  "Australia",
-  "Canada",
-  "Germany",
-  "France",
-  "Saudi Arabia",
-];
-
-// 6. COLLECTIONS (Used in Navbar, FeaturedCollections, etc.)
-export const collections: Collection[] = [
-  { slug: "coffee-tables", name: "Coffee Tables", description: "Handcrafted marble coffee tables" },
-  { slug: "side-tables", name: "Side Tables", description: "Elegant marble side tables" },
-  { slug: "accent-tables", name: "Accent Tables", description: "Unique marble accent pieces" },
-  { slug: "console-tables", name: "Console Tables", description: "Statement marble consoles" },
-  { slug: "dining-tables", name: "Dining Tables", description: "Bespoke marble dining tables" },
-  { slug: "sculptures", name: "Sculptures", description: "Hand-carved stone sculptures" },
-];
-
-// 7. PRODUCTS (Used in Product pages)
-export const products: Product[] = [
-  {
-    id: "1",
-    slug: "calacatta-coffee-table",
-    name: "Calacatta Marble Coffee Table",
-    collection: "coffee-tables",
-    price: "$1,200",
-    image: "/images/table1.jpeg",
-    description: "Solid Calacatta marble table hand-finished in Rajasthan.",
-  },
-];
-
-// 8. HELPER FUNCTIONS (Used in dynamic pages & Sitemap)
-export function getCollection(slug: string) {
-  return collections.find((c) => c.slug === slug);
-}
-
-export function getProduct(slug: string) {
-  return products.find((p) => p.slug === slug);
-}
-
-export function getProductsByCollection(collectionSlug: string) {
-  return products.filter((p) => p.collection === collectionSlug);
-}
