@@ -80,7 +80,31 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
-// 2. TESTIMONIALS (Fixes Testimonials.tsx)
+// 2. PROCESS STEPS (Fixes ManufacturingProcess.tsx)
+export const processSteps = [
+  {
+    number: "01",
+    title: "Slab Selection",
+    description: "Hand-picking high-grade natural marble blocks direct from Rajasthan quarries.",
+  },
+  {
+    number: "02",
+    title: "Precision Cutting",
+    description: "Advanced CNC diamond wire cutting tailored to exact dimensional specifications.",
+  },
+  {
+    number: "03",
+    title: "Artisanal Finishing",
+    description: "Hand-polishing and edge-detailing by master craftsmen with decades of stone heritage.",
+  },
+  {
+    number: "04",
+    title: "Quality & Export",
+    description: "Sealed for protection, crate-packaged, and shipped securely around the world.",
+  },
+];
+
+// 3. TESTIMONIALS
 export const testimonials = [
   {
     quote:
@@ -96,7 +120,7 @@ export const testimonials = [
   },
 ];
 
-// 3. BEST SELLERS
+// 4. BEST SELLERS
 export const bestSellers = [
   {
     id: "1",
@@ -108,7 +132,7 @@ export const bestSellers = [
   },
 ];
 
-// 4. EXPORT COUNTRIES
+// 5. EXPORT COUNTRIES
 export const exportCountries = [
   "United States",
   "United Kingdom",
@@ -120,7 +144,7 @@ export const exportCountries = [
   "Saudi Arabia",
 ];
 
-// 5. COLLECTIONS
+// 6. COLLECTIONS
 export const collections: Collection[] = [
   { slug: "coffee-tables", name: "Coffee Tables", description: "Handcrafted marble coffee tables" },
   { slug: "side-tables", name: "Side Tables", description: "Elegant marble side tables" },
@@ -130,7 +154,7 @@ export const collections: Collection[] = [
   { slug: "sculptures", name: "Sculptures", description: "Hand-carved stone sculptures" },
 ];
 
-// 6. PRODUCTS
+// 7. PRODUCTS
 export const products: Product[] = [
   {
     id: "1",
@@ -143,7 +167,7 @@ export const products: Product[] = [
   },
 ];
 
-// 7. HELPER FUNCTIONS
+// 8. HELPER FUNCTIONS
 export function getCollection(slug: string) {
   return collections.find((c) => c.slug === slug);
 }
