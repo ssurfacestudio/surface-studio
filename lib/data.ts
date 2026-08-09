@@ -9,6 +9,27 @@ export type BlogPost = {
   content: string[];
 };
 
+export type Product = {
+  id: string;
+  slug: string;
+  name: string;
+  collection: string;
+  price: string;
+  image: string;
+  description?: string;
+  dimensions?: string;
+  material?: string;
+  inStock?: boolean;
+};
+
+export type Collection = {
+  slug: string;
+  name: string;
+  description?: string;
+  image?: string;
+};
+
+// 1. BLOG POSTS
 export const blogPosts: BlogPost[] = [
   {
     slug: "how-to-choose-marble-for-your-home",
@@ -59,25 +80,50 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
-// MUST BE EXPORTED FOR BestSellers.tsx
+// 2. BEST SELLERS
 export const bestSellers = [
   {
     id: "1",
     slug: "calacatta-coffee-table",
     title: "Calacatta Marble Coffee Table",
+    name: "Calacatta Marble Coffee Table",
     price: "$1,200",
     image: "/images/table1.jpeg",
   },
 ];
 
-// MUST BE EXPORTED FOR OTHER COMPONENTS
-export const collections = [
-  { slug: "coffee-tables", name: "Coffee Tables" },
-  { slug: "side-tables", name: "Side Tables" },
-  { slug: "accent-tables", name: "Accent Tables" },
-  { slug: "console-tables", name: "Console Tables" },
-  { slug: "dining-tables", name: "Dining Tables" },
-  { slug: "sculptures", name: "Sculptures" },
+// 3. COLLECTIONS
+export const collections: Collection[] = [
+  { slug: "coffee-tables", name: "Coffee Tables", description: "Handcrafted marble coffee tables" },
+  { slug: "side-tables", name: "Side Tables", description: "Elegant marble side tables" },
+  { slug: "accent-tables", name: "Accent Tables", description: "Unique marble accent pieces" },
+  { slug: "console-tables", name: "Console Tables", description: "Statement marble consoles" },
+  { slug: "dining-tables", name: "Dining Tables", description: "Bespoke marble dining tables" },
+  { slug: "sculptures", name: "Sculptures", description: "Hand-carved stone sculptures" },
 ];
 
-export const products = [];
+// 4. PRODUCTS
+export const products: Product[] = [
+  {
+    id: "1",
+    slug: "calacatta-coffee-table",
+    name: "Calacatta Marble Coffee Table",
+    collection: "coffee-tables",
+    price: "$1,200",
+    image: "/images/table1.jpeg",
+    description: "Solid Calacatta marble table hand-finished in Rajasthan.",
+  },
+];
+
+// 5. HELPER FUNCTIONS
+export function getCollection(slug: string) {
+  return collections.find((c) => c.slug === slug);
+}
+
+export function getProduct(slug: string) {
+  return products.find((p) => p.slug === slug);
+}
+
+export function getProductsByCollection(collectionSlug: string) {
+  return products.filter((p) => p.collection === collectionSlug);
+}
