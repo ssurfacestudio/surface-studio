@@ -43,7 +43,7 @@ export default function AboutPage() {
         eyebrow="About Surface Studio"
         title="We See Possibility in Every Stone"
         description="Every slab has a character of its own. We discover it, shape it and reveal it and turn it into something entirely unique."
-        image="/aboutphoto1.jpeg"
+        image="/images/aboutphoto1.jpeg"
       />
 
       <section className="bg-white py-24 dark:bg-charcoal md:py-32">
@@ -68,7 +68,7 @@ export default function AboutPage() {
           <ScrollReveal delay={0.15}>
             <div className="relative h-[450px] w-full overflow-hidden rounded-lg md:h-full">
               <Image
-                src="/aboutphoto2.jpeg"
+                src="/images/aboutphoto2.jpeg"
                 alt="Artisan hand-finishing a marble table edge"
                 fill
                 priority
