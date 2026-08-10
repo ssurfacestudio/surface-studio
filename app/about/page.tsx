@@ -9,10 +9,11 @@ import ContactCTA from "@/components/home/ContactCTA";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Surface Studio creates collectible furniture from nature's equisite stones. Every piece is defined by rare material, redifined form and meticulous craftsmanship. Made to be admired. Made to endure.",
+    "Surface Studio creates collectible furniture from nature's exquisite stones. Every piece is defined by rare material, redefined form and meticulous craftsmanship. Made to be admired. Made to endure.",
 };
 
-const MAKING OF A PIECE = [
+// Variable name fixed: camelCase (no spaces, no underscores)
+const makingOfAPiece = [
   { title: "THE SLAB", event: "We begin with a stone chosen for its unique movement, veining and character." },
   { title: "THE VISION", event: "The natural pattern inspires the shape, proportions and direction of the design." },
   { title: "THE FORM", event: "The slab is precisely cut and sculpted into a distinctive silhouette." },
@@ -62,11 +63,14 @@ export default function AboutPage() {
           <ScrollReveal className="mb-14 text-center">
             <p className="font-body text-[12px] uppercase tracking-[0.3em] text-gold">Making of a Piece</p>
           </ScrollReveal>
+          
           <div className="mx-auto max-w-2xl divide-y divide-charcoal/10 dark:divide-ivory/10">
-            {MAKING OF A PIECE.map((m, i) => (
+            {makingOfAPiece.map((m, i) => (
               <ScrollReveal key={m.title} delay={i * 0.06}>
-                <div className="flex items-baseline gap-6 py-6">
-                  <span className="w-16 shrink-0 font-display text-2xl text-gold">{m.title}</span>
+                <div className="flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-8 py-6">
+                  <span className="w-36 shrink-0 font-display text-lg tracking-wider text-gold">
+                    {m.title}
+                  </span>
                   <span className="font-body text-sm text-charcoal/70 dark:text-ivory/70 md:text-base">
                     {m.event}
                   </span>
@@ -74,6 +78,7 @@ export default function AboutPage() {
               </ScrollReveal>
             ))}
           </div>
+
           <div className="mt-14 flex justify-center">
             <MarbleVein />
           </div>
