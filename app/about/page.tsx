@@ -28,7 +28,7 @@ export default function AboutPage() {
         eyebrow="About Surface Studio"
         title="We See Possibility in Every Stone"
         description="Every slab has a character of its own. We discover it, shape it and reveal it and turn it into something entirely unique."
-        image="https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=2000&auto=format&fit=crop"
+        image="aboutphoto1.jpeg"
       />
 
       <section className="bg-white py-24 dark:bg-charcoal md:py-32">
@@ -50,7 +50,7 @@ export default function AboutPage() {
 
           <ScrollReveal delay={0.15}>
             <img
-              src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1600&auto=format&fit=crop"
+              src="aboutphoto2.jpeg"
               alt="Artisan hand-finishing a marble table edge"
               className="h-full w-full rounded-lg object-cover"
             />
