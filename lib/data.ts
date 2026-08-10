@@ -67,7 +67,7 @@ export const blogPosts: BlogPost[] = [
       "Maintain the seal. Depending on the marble, finish and frequency of use, professional resealing may be required periodically. A simple water-bead test can help indicate whether the protective seal is still effective.",
       "Most importantly, embrace the natural character of marble. Small variations, subtle movement and the gradual development of the stone are part of its beauty. Proper care isn't about keeping marble untouched—it is about preserving its character while allowing it to age gracefully.",
       "A little care keeps every Surface Studio piece looking as timeless as the stone itself.",
-        ],
+    ],
   },
   {
     slug: "where-marble-find-its-form",
@@ -89,7 +89,7 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
-// 2. PROCESS STEPS
+// 2. PROCESS STEPS / WORLD OF STONE
 export const theWorldofStone = [
   {
     number: "01",
@@ -115,13 +115,16 @@ export const theWorldofStone = [
     description:
       "For spaces that call for stronger visual movement, quartzite offers dramatic patterns and rich natural variation. Its distinctive appearance makes it particularly suited to statement pieces where the stone itself becomes the focal point.(Character: Bold · Expressive · Dramatic · Distinctive)",
   },
-   {
+  {
     number: "05",
     title: "GRANITE",
     description:
       "Known for its strength and enduring character, granite offers a more grounded and substantial expression of natural stone. Its varied mineral patterns and deep tones create a powerful presence in both residential and commercial spaces.(Character: Strong · Enduring · Natural · Bold)",
   },
 ];
+
+// Export alias to maintain backwards compatibility for components using `processSteps`
+export const processSteps = theWorldofStone;
 
 // 3. TESTIMONIALS
 export const testimonials = [
@@ -174,7 +177,7 @@ export const collections: Collection[] = [
   { slug: "sculptures", name: "Sculptures", description: "Hand-carved stone sculptures" },
 ];
 
-// 7. PRODUCTS (with images array added)
+// 7. PRODUCTS
 export const products: Product[] = [
   {
     id: "1",
