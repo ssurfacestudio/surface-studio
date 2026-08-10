@@ -14,7 +14,7 @@ export default function FeaturedCollections() {
             Featured Collections
           </p>
           <h2 className="mt-4 font-display text-3xl text-charcoal dark:text-ivory md:text-4xl">
-            Seven collections, one philosophy: let the stone lead.
+            MADE FOR SPACES WHERE BEAUTY IS ESSENTIAL
           </h2>
         </ScrollReveal>
 
