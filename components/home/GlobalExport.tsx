@@ -2,10 +2,10 @@ import { exportCountries } from "@/lib/data";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const stats = [
-  { value: "30+", label: "Countries Served" },
-  { value: "12,000+", label: "Pieces Exported" },
-  { value: "15 Yrs", label: "In Manufacturing" },
-  { value: "98%", label: "On-Time Delivery" },
+  { value: "30+", label: "GLOBAL MARKETS" },
+  { value: "12,000+", label: "PIECES CREATED" },
+  { value: "15 Yrs", label: "YEARS OF CRAFT" },
+  { value: "100%", label: "NATURAL STONE" },
 ];
 
 export default function GlobalExport() {
@@ -18,12 +18,12 @@ export default function GlobalExport() {
               Global Export
             </p>
             <h2 className="mt-4 font-display text-3xl text-charcoal dark:text-ivory md:text-4xl">
-              Made in Rajasthan. Delivered worldwide.
+              From India, For the World.
             </h2>
             <p className="mt-5 max-w-md font-body text-sm leading-relaxed text-charcoal/60 dark:text-ivory/60">
-              From our workshop in Kishangarh, we ship insured, custom-crated
-              furniture to interior designers, hospitality groups and private
-              collectors across six continents.
+              Surface Studio brings the beauty of exceptional natural stone and the art of refined design from India to interiors across the globe. Each piece is thoughtfully created to celebrate the individuality of its material while embracing a contemporary, sophisticated aesthetic.
+              From private residences and luxury hospitality to architects and design studios, our work travels across borders to become part of spaces that value character, craftsmanship and timeless design. 
+              Rooted in craftsmanship. Shaped by stone. Designed for the world.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-3 gap-y-2">
               {exportCountries.map((c) => (
