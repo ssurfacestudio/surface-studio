@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "Surface Studio creates collectible furniture from nature's equisite stones. Every piece is defined by rare material, redifined form and meticulous craftsmanship. Made to be admired. Made to endure.",
 };
 
-const MAKING_OF_A_PIECE = [
+const MAKING OF A PIECE = [
   { title: "THE SLAB", event: "We begin with a stone chosen for its unique movement, veining and character." },
   { title: "THE VISION", event: "The natural pattern inspires the shape, proportions and direction of the design." },
   { title: "THE FORM", event: "The slab is precisely cut and sculpted into a distinctive silhouette." },
@@ -60,10 +60,10 @@ export default function AboutPage() {
       <section className="bg-ivory py-20 dark:bg-charcoal-soft md:py-28">
         <div className="mx-auto max-w-8xl px-6 md:px-8 lg:px-12">
           <ScrollReveal className="mb-14 text-center">
-            <p className="font-body text-[12px] uppercase tracking-[0.3em] text-gold">Making_of_a_Piece</p>
+            <p className="font-body text-[12px] uppercase tracking-[0.3em] text-gold">Making of a Piece</p>
           </ScrollReveal>
           <div className="mx-auto max-w-2xl divide-y divide-charcoal/10 dark:divide-ivory/10">
-            {MAKING_OF_A_PIECE.map((m, i) => (
+            {MAKING OF A PIECE.map((m, i) => (
               <ScrollReveal key={m.title} delay={i * 0.06}>
                 <div className="flex items-baseline gap-6 py-6">
                   <span className="w-16 shrink-0 font-display text-2xl text-gold">{m.title}</span>
