@@ -13,7 +13,7 @@ export default function InstagramGallery() {
             Follow the Craft
           </p>
           <h2 className="mt-4 font-display text-3xl text-charcoal dark:text-ivory md:text-4xl">
-            @surfacestudio.marble
+            @surface_s_
           </h2>
         </ScrollReveal>
 
