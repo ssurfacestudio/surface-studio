@@ -12,11 +12,12 @@ export const metadata: Metadata = {
     "Surface Studio creates collectible furniture from nature's equisite stones. Every piece is defined by rare material, redifined form and meticulous craftsmanship. Made to be admired. Made to endure.",
 };
 
-const milestones = [
-  { year: "2011", event: "Founded as a two-man cutting workshop in Kishangarh" },
-  { year: "2015", event: "First container export shipped to the UAE" },
-  { year: "2019", event: "In-house design studio launched for custom commissions" },
-  { year: "2023", event: "Reached 30 export markets across six continents" },
+const MAKING_OF_A_PIECE = [
+  { title: "THE SLAB", event: "We begin with a stone chosen for its unique movement, veining and character." },
+  { title: "THE VISION", event: "The natural pattern inspires the shape, proportions and direction of the design." },
+  { title: "THE FORM", event: "The slab is precisely cut and sculpted into a distinctive silhouette." },
+  { title: "THE FINISH", event: "Edges, surfaces and details are refined by hand to reveal the stone at its best." },
+  { title: "THE PIECE", event: "A raw slab becomes a one-of-a-kind object designed to live beautifully for years." },
 ];
 
 export default function AboutPage() {
@@ -59,13 +60,13 @@ export default function AboutPage() {
       <section className="bg-ivory py-20 dark:bg-charcoal-soft md:py-28">
         <div className="mx-auto max-w-8xl px-6 md:px-8 lg:px-12">
           <ScrollReveal className="mb-14 text-center">
-            <p className="font-body text-[12px] uppercase tracking-[0.3em] text-gold">Milestones</p>
+            <p className="font-body text-[12px] uppercase tracking-[0.3em] text-gold">Making_of_a_Piece</p>
           </ScrollReveal>
           <div className="mx-auto max-w-2xl divide-y divide-charcoal/10 dark:divide-ivory/10">
-            {milestones.map((m, i) => (
-              <ScrollReveal key={m.year} delay={i * 0.06}>
+            {MAKING_OF_A_PIECE.map((m, i) => (
+              <ScrollReveal key={m.title} delay={i * 0.06}>
                 <div className="flex items-baseline gap-6 py-6">
-                  <span className="w-16 shrink-0 font-display text-2xl text-gold">{m.year}</span>
+                  <span className="w-16 shrink-0 font-display text-2xl text-gold">{m.title}</span>
                   <span className="font-body text-sm text-charcoal/70 dark:text-ivory/70 md:text-base">
                     {m.event}
                   </span>
