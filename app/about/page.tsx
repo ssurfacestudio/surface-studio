@@ -9,7 +9,7 @@ import ContactCTA from "@/components/home/ContactCTA";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Surface Studio is a family-run manufacturer of handcrafted marble furniture, working from Rajasthan's marble belt to luxury homes worldwide.",
+    "Surface Studio creates collectible furniture from nature's equisite stones. Every piece is defined by rare material, redifined form and meticulous craftsmanship. Made to be admired. Made to endure.",
 };
 
 const milestones = [
@@ -38,18 +38,10 @@ export default function AboutPage() {
             </h2>
             <div className="mt-6 space-y-4 font-body text-sm leading-relaxed text-charcoal/70 dark:text-ivory/70 md:text-base">
               <p>
-                Surface Studio began in 2011 in Kishangarh, the heart of
-                India's marble trade, as a small cutting workshop serving
-                local builders. What set us apart early was refusing to treat
-                marble as a construction material — we treated every slab as
-                furniture waiting to be found inside it.
+                We began by selecting a marble slab not with a finished product in mind, but for the beauty we saw within the stone. Its natural movement, veining and character became the starting point for the design. Instead of giving the marble a conventional shape, we explored how its pattern could influence the silhouette, proportions and form of the piece. Through sketches, shaping and careful craftsmanship, the original slab gradually became a distinctive piece of furniture—one where the material itself leads the design. 
               </p>
               <p>
-                Fifteen years on, we're still in Kishangarh, still family-run,
-                and still walking the cutting floor every morning. What's
-                changed is scale: a design studio, an export division, and a
-                bench of artisans whose fathers taught them the same hand
-                tools we started with.
+                What began as a simple piece of stone became an expression of form, craftsmanship and individuality. That is the idea behind Surface Studio: to look at stone differently and create something that could exist nowhere else.
               </p>
             </div>
           </ScrollReveal>
