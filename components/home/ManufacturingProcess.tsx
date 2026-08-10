@@ -7,10 +7,10 @@ export default function ManufacturingProcess() {
       <div className="mx-auto max-w-8xl px-6 md:px-8 lg:px-12">
         <ScrollReveal className="mb-16 max-w-xl">
           <p className="font-body text-[12px] uppercase tracking-[0.3em] text-gold">
-            Manufacturing Process
+            The World of Marble
           </p>
           <h2 className="mt-4 font-display text-3xl text-ivory md:text-4xl">
-            From quarry block to finished piece.
+            Natural Rarity. Refined Design.
           </h2>
         </ScrollReveal>
 
