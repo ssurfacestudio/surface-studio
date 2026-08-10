@@ -26,8 +26,8 @@ export default function AboutPage() {
     <>
       <PageHeader
         eyebrow="About Surface Studio"
-        title="Stone-workers first, designers second."
-        description="A family workshop in Rajasthan's marble belt, now exporting to luxury homes on six continents."
+        title="We See Possibility in Every Stone"
+        description="Every slab has a character of its own. We discover it, shape it and reveal it and turn it into something entirely unique."
         image="https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=2000&auto=format&fit=crop"
       />
 
