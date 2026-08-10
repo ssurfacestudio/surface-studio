@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     "Surface Studio creates collectible furniture from nature's exquisite stones. Every piece is defined by rare material, redefined form and meticulous craftsmanship. Made to be admired. Made to endure.",
 };
 
-// Variable name fixed: camelCase (no spaces, no underscores)
 const makingOfAPiece = [
   { title: "THE SLAB", event: "We begin with a stone chosen for its unique movement, veining and character." },
   { title: "THE VISION", event: "The natural pattern inspires the shape, proportions and direction of the design." },
@@ -28,7 +27,7 @@ export default function AboutPage() {
         eyebrow="About Surface Studio"
         title="We See Possibility in Every Stone"
         description="Every slab has a character of its own. We discover it, shape it and reveal it and turn it into something entirely unique."
-        image="aboutphoto1.jpeg"
+        image="/aboutphoto1.jpeg"
       />
 
       <section className="bg-white py-24 dark:bg-charcoal md:py-32">
@@ -50,7 +49,7 @@ export default function AboutPage() {
 
           <ScrollReveal delay={0.15}>
             <img
-              src="aboutphoto2.jpeg"
+              src="/aboutphoto2.jpeg"
               alt="Artisan hand-finishing a marble table edge"
               className="h-full w-full rounded-lg object-cover"
             />
