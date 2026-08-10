@@ -90,30 +90,36 @@ export const blogPosts: BlogPost[] = [
 ];
 
 // 2. PROCESS STEPS
-export const processSteps = [
+export const theWorldofStone = [
   {
     number: "01",
-    title: "Slab Selection",
+    title: "MARBLE",
     description:
-      "Hand-picking high-grade natural marble blocks direct from Rajasthan quarries.",
+      "The foundation of our collection. Marble is valued for its depth, natural veining and ability to bring an understated sense of luxury to furniture and interiors. From subtle, cloud-like patterns to bold, architectural movement, every slab offers a different composition. (Makrana · Carrara · Calacatta · Statuario · Dungri · Albeta · Pink Marble and more)",
   },
   {
     number: "02",
-    title: "Precision Cutting",
+    title: "ONYX",
     description:
-      "Advanced CNC diamond wire cutting tailored to exact dimensional specifications.",
+      "Known for its translucent quality and dramatic natural patterns, onyx brings an almost luminous character to interiors. Its layered colours and organic movement make it particularly striking for statement furniture and sculptural applications. (Character: Translucent · Dramatic · Rare · Sculptural)",
   },
   {
     number: "03",
-    title: "Artisanal Finishing",
+    title: "TRAVERTINE",
     description:
-      "Hand-polishing and edge-detailing by master craftsmen with decades of stone heritage.",
+      "Recognised for its warm tones, tactile surface and naturally porous character, travertine introduces a softer, more organic expression of stone. Its earthy palette works beautifully with contemporary, minimalist and Mediterranean-inspired interiors. (Character: Warm · Organic · Textural · Architectural)",
   },
   {
     number: "04",
-    title: "Quality & Export",
+    title: "QUARTZITE",
     description:
-      "Sealed for protection, crate-packaged, and shipped securely around the world.",
+      "For spaces that call for stronger visual movement, quartzite offers dramatic patterns and rich natural variation. Its distinctive appearance makes it particularly suited to statement pieces where the stone itself becomes the focal point.(Character: Bold · Expressive · Dramatic · Distinctive)",
+  },
+   {
+    number: "05",
+    title: "GRANITE",
+    description:
+      "Known for its strength and enduring character, granite offers a more grounded and substantial expression of natural stone. Its varied mineral patterns and deep tones create a powerful presence in both residential and commercial spaces.(Character: Strong · Enduring · Natural · Bold)",
   },
 ];
 
