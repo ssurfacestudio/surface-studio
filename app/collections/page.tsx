@@ -16,7 +16,7 @@ export default function CollectionsPage() {
     <>
       <PageHeader
         eyebrow="Collections"
-        title="Seven collections. One material, endless form."
+        title="MADE FOR SPACES WHERE BEAUTY IS ESSENTIAL"
         description="Every piece begins as a single block, chosen for how its veining will move across the finished form."
         image="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2000&auto=format&fit=crop"
       />
