@@ -195,8 +195,6 @@ export const collections: Collection[] = [
   { slug: "console-tables", name: "Console Tables", description: "Statement marble consoles", image: "/images/console.jpeg" },
   { slug: "dining-tables", name: "Dining Tables", description: "Bespoke marble dining tables", image: "/images/dining.jpeg" },
   { slug: "objects-&-living", name: "Objects & Living", description: "Artful Objects for your home", image: "/images/objects.jpeg" },
-  { slug: "carved-marble-panel", name: "Carved Marble Panels", description: "Marble panels with intricate carvings", image: "/images/carved.jpeg" },
-  { slug: "sculptures", name: "Sculptures", description: "Artistic marble sculptures", image: "/images/sculpture.jpeg" },
 ];
 
 // 7. PRODUCTS
