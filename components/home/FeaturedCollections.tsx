@@ -5,7 +5,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import MarbleVein from "@/components/MarbleVein";
 
 export default function FeaturedCollections() {
-  const featured = collections.slice(0, 4);
+  const featured = collections;
   return (
     <section className="bg-white py-24 dark:bg-charcoal md:py-32">
       <div className="mx-auto max-w-8xl px-6 md:px-8 lg:px-12">
@@ -18,7 +18,7 @@ export default function FeaturedCollections() {
           </h2>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {featured.map((c, i) => (
             <ScrollReveal key={c.slug} delay={i * 0.08}>
               <Link
