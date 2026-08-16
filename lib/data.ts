@@ -131,14 +131,14 @@ export const testimonials = [
   {
     quote:
       "The craftsmanship of our Calacatta coffee table exceeded our expectations. Truly a masterpiece in our living room.",
-    author: "Sophia Laurent",
-    location: "London, UK",
+    author: "Anonymous Client",
+    location: "Maharastra, India",
   },
   {
     quote:
       "Working with Surface Studio on our custom dining project was seamless. The stone quality and finishing are world-class.",
-    author: "Marcello Rossi",
-    location: "Milan, Italy",
+    author: "Aayush Srivastava",
+    location: "Bangalore, India",
   },
 ];
 
