@@ -189,10 +189,10 @@ export const exportCountries = [
 
 // 6. COLLECTIONS
 export const collections: Collection[] = [
-  { slug: "coffee-tables", name: "Coffee Tables", description: "Handcrafted marble coffee tables" },
-  { slug: "side-tables", name: "Side Tables", description: "Elegant marble side tables" },
-  { slug: "accent-tables", name: "Accent Tables", description: "Unique marble accent pieces" },
-  { slug: "console-tables", name: "Console Tables", description: "Statement marble consoles" },
+  { slug: "coffee-tables", name: "Coffee Tables", description: "Handcrafted marble coffee tables", image: "/images/coffee.jpeg" },
+  { slug: "side-tables", name: "Side Tables", description: "Elegant marble side tables", image: "/images/side.jpeg" },
+  { slug: "accent-tables", name: "Accent Tables", description: "Unique marble accent pieces", image: "/images/accent.jpeg" },
+  { slug: "console-tables", name: "Console Tables", description: "Statement marble consoles", image: "/images/console.jpeg" },
   { slug: "dining-tables", name: "Dining Tables", description: "Bespoke marble dining tables" },
   { slug: "sculptures", name: "Sculptures", description: "Hand-carved stone sculptures" },
 ];
