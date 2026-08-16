@@ -43,7 +43,7 @@ export default function Footer() {
               ["Accent Tables", "/collections/accent-tables"],
               ["Console Tables", "/collections/console-tables"],
               ["Dining Tables", "/collections/dining-tables"],
-              ["Objects & Living", "/collections/Objects & Living"],
+              ["Objects & Living", "/collections/objects-&-living"],
             ].map(([name, href]) => (
               <li key={href}>
                 <Link
