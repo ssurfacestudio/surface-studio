@@ -9,15 +9,21 @@ export default function ProductInquiry({ product }: { product: Product }) {
   const [sent, setSent] = useState(false);
 
   async function requestQuote() {
-    setSent(true);
     try {
-      await fetch("/api/quote", {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ product: product.name, slug: product.slug }),
+        body: JSON.stringify({
+          access_key: "5a4d0249-de0d-4591-ae81-ad48d7e4e12c",
+          subject: `Quote Request: ${product.name}`,
+          message: `Product: ${product.name}\nSlug: ${product.slug}`,
+        }),
       });
+      if (res.ok) {
+        setSent(true);
+      }
     } catch {
-      // Placeholder endpoint — wire to CRM/email service in production.
+      // failed silently — sent stays false
     }
   }
 
