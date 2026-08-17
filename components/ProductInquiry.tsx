@@ -44,7 +44,7 @@ export default function ProductInquiry({ product }: { product: Product }) {
     <div className="mt-8 flex flex-wrap gap-3">
       <a
         href={whatsappLink(
-          `Hello Surface Studio, I'd like to enquire about the ${product.name} (${product.marbleType}).`
+          `Hello Surface Studio, I'd like to enquire about the ${product.name}.`
         )}
         target="_blank"
         rel="noopener noreferrer"
