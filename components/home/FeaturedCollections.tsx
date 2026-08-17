@@ -34,7 +34,6 @@ export default function FeaturedCollections() {
                 <div className="absolute inset-x-0 bottom-0 flex items-end justify-between p-7">
                   <div>
                     <h3 className="font-display text-2xl text-white">{c.name}</h3>
-                    <p className="mt-1 font-body text-sm text-white/70">{c.tagline}</p>
                   </div>
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white/15 text-white backdrop-blur-sm transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">
                     <ArrowUpRight className="h-5 w-5" />

@@ -18,11 +18,15 @@ export default function ContactForm({
     const form = new FormData(e.currentTarget);
     const payload = Object.fromEntries(form.entries());
     try {
-      await fetch("/api/quote", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
+     await fetch("https://api.web3forms.com/submit", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({
+    access_key: "5a4d0249-de0d-4591-ae81-ad48d7e4e12c",
+    subject: "New Project Enquiry",
+    ...payload,
+  }),
+});
     } catch {
       // Placeholder endpoint — connect to email/CRM in production.
     }
