@@ -9,20 +9,29 @@ export default function Newsletter() {
   const [status, setStatus] = useState<"idle" | "loading" | "done">("idle");
 
   async function handleSubmit(e: FormEvent) {
-    e.preventDefault();
-    if (!email) return;
-    setStatus("loading");
-    try {
-      await fetch("/api/newsletter", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
-      });
-    } catch {
-      // Swallow errors — endpoint is a placeholder until wired to a real ESP.
+  e.preventDefault();
+  if (!email) return;
+  setStatus("loading");
+  try {
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        access_key: "5a4d0249-de0d-4591-ae81-ad48d7e4e12c",
+        subject: "New Newsletter Signup",
+        message: `New subscriber email: ${email}`,
+        email: email,
+      }),
+    });
+    if (res.ok) {
+      setStatus("done");
+    } else {
+      setStatus("idle");
     }
-    setStatus("done");
+  } catch {
+    setStatus("idle");
   }
+}
 
   return (
     <section className="bg-charcoal py-20 md:py-28">
