@@ -21,7 +21,7 @@ export default function InstagramGallery() {
           {images.map((src, i) => (
             <a
               key={i}
-              href="https://instagram.com"
+              href="https://instagram.com/surface_S_"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative aspect-square overflow-hidden rounded-md"
