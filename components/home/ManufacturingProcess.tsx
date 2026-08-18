@@ -16,8 +16,8 @@ export default function ManufacturingProcess() {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-3">
           {processSteps.map((step, i) => (
-            <ScrollReveal key={step.step} delay={i * 0.06}>
-              <p className="font-display text-4xl text-gold/50">{step.step}</p>
+            <ScrollReveal key={i} delay={i * 0.06}>
+              <p className="font-display text-4xl text-gold/50">{step.number}</p>
               <h3 className="mt-3 font-display text-xl text-ivory">{step.title}</h3>
               <p className="mt-2 font-body text-sm leading-relaxed text-ivory/60">
                 {step.description}
