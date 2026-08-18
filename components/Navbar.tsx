@@ -7,6 +7,7 @@ import { Menu, X, Search, Sun, Moon, ChevronDown } from "lucide-react";
 import { useTheme } from "next-themes";
 import { collections, products } from "@/lib/data";
 import { cn } from "@/lib/utils";
+import GoogleTranslate from "@/components/GoogleTranslate";
 
 const navLinks = [
   { label: "Collections", href: "/collections", mega: true },
@@ -87,6 +88,7 @@ export default function Navbar() {
             ))}
           </ul>
 
+<GoogleTranslate />
           <div className="flex items-center gap-4">
             <button
               aria-label="Search"

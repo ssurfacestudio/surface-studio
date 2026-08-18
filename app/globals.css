@@ -58,3 +58,23 @@
 .font-body {
   font-family: var(--font-body);
 }
+.google-translate-widget .goog-te-gadget {
+  font-family: inherit !important;
+  font-size: 12px !important;
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget span {
+  display: none;
+}
