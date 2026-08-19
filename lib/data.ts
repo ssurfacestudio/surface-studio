@@ -210,7 +210,7 @@ export const products: Product[] = [
     slug: "calacatta-coffee-table",
     name: "Calacatta Marble Coffee Table",
     collection: "coffee-tables",
-    price: "$1,200",
+    price: "Request Quote",
     image: "/images/table1.jpeg",
     images: ["/images/table1.jpeg"],
     description: "Solid Calacatta marble table hand-finished in Rajasthan.",
@@ -218,7 +218,7 @@ export const products: Product[] = [
   {
     id: "01",
     slug: "calacatta-coffee-table01",
-    name: "Calacatta Marble Coffee Table",
+    name: "Marble Coffee Table",
     collection: "coffee-tables",
     price: "Request Quote",
     image: "/images/coffee01main.jpeg",
