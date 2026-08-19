@@ -151,13 +151,13 @@ export const testimonials = [
 // 4. BEST SELLERS
 export const bestSellers = [
   {
-    id: "1",
-    slug: "calacatta-coffee-table",
-    title: "Calacatta Marble Coffee Table",
-    name: "Calacatta Marble Coffee Table",
-    price: "$1,200",
-    image: "/images/table1.jpeg",
-    images: ["/images/table1.jpeg"],
+    id: "01",
+    slug: "marble-coffee-table01",
+    title: "Marble Coffee Table",
+    name: "Marble Coffee Table",
+    price: "Request Quote",
+    image: "/images/coffee01main.jpeg",
+    images: ["/images/coffee01main.jpeg"],
   },
 ];
 
@@ -217,7 +217,7 @@ export const products: Product[] = [
   },
   {
     id: "01",
-    slug: "calacatta-coffee-table01",
+    slug: "marble-coffee-table01",
     name: "Marble Coffee Table",
     collection: "coffee-tables",
     price: "Request Quote",
