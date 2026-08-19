@@ -18,6 +18,13 @@ export default function CollectionsPage() {
             {collections.map((collection, index) => (
               <ScrollReveal key={collection.slug} delay={index * 0.05}>
                 <div className="rounded-lg border border-charcoal/10 bg-ivory/50 p-6 dark:border-ivory/10 dark:bg-charcoal-soft">
+                  {collection.image && (
+                    <img
+                      src={collection.image}
+                      alt={collection.name}
+                      className="mb-4 h-auto w-full rounded-lg object-cover"
+                    />
+                  )}
                   <h2 className="font-display text-2xl text-charcoal dark:text-ivory">
                     {collection.name}
                   </h2>

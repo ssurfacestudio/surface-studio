@@ -17,10 +17,16 @@ export type Product = {
   price: string;
   image: string;
   images: string[];
+  video?: string;
   description?: string;
   dimensions?: string;
   material?: string;
   inStock?: boolean;
+  marbleType?: string;
+  finish?: string;
+  weight?: string;
+  bestSeller?: boolean;
+  customizable?: boolean;
 };
 
 export type Collection = {
@@ -208,6 +214,35 @@ export const products: Product[] = [
     image: "/images/table1.jpeg",
     images: ["/images/table1.jpeg"],
     description: "Solid Calacatta marble table hand-finished in Rajasthan.",
+  },
+  {
+    id: "01",
+    slug: "calacatta-coffee-table01",
+    name: "Calacatta Marble Coffee Table",
+    collection: "coffee-tables",
+    price: "Request Quote",
+    image: "/images/coffee01main.jpeg",
+    images: [
+      "/images/coffee01main.jpeg",
+      "/images/coffee01angle1.jpeg",
+      "/images/coffee01angle2.jpeg",
+      "/images/coffee01angle3.jpeg",
+      "/images/coffee01angle4.jpeg",
+    ],
+    video: "/videos/coffee01video.mp4",
+    description: `A study in form, balance, and natural stone, this sculptural coffee table transforms marble into a statement of contemporary luxury. Its softly rounded tabletop rests upon three bold, spherical marble forms, creating a striking composition that feels both architectural and organic.
+
+Crafted from natural marble, every surface reveals its own distinctive veining, making each piece inherently unique. The smooth polished finish enhances the depth and movement of the stone, while the sculptural base gives the table a strong yet effortlessly elegant presence.
+
+Designed for refined living spaces, this statement coffee table brings together functionality and collectible design—serving as a sophisticated centrepiece while adding an artistic character to the room.
+  `,
+    dimensions: "36 x 90 x 90 cm",
+    material: "Natural Marble",
+    marbleType: "Arabescato Corchia Marble",
+    finish: "Polished",
+    weight: "200 kg",
+    bestSeller: true,
+    customizable: true,
   },
 ];
 
