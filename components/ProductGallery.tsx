@@ -40,9 +40,11 @@ export default function ProductGallery({
         onMouseMove={!isVideoActive ? handleMouseMove : undefined}
       >
         {isVideoActive ? (
-          <video
+                    <video
             src={video}
             controls
+            controlsList="nodownload noremoteplayback"
+            disablePictureInPicture
             className="h-full w-full object-cover"
           />
         ) : (

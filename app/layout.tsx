@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ThemeProvider from "@/components/ThemeProvider";
+import ProtectContent from "@/components/ProtectContent";
 
 const display = Cormorant({
   subsets: ["latin"],
@@ -109,6 +110,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+                <ProtectContent />
         <ThemeProvider>
           <Navbar />
           <main className="pt-0">{children}</main>
