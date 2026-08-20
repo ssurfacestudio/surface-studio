@@ -322,14 +322,38 @@ Designed to balance organic form with contemporary elegance, this table works be
     ],
     description: `A refined oval marble coffee table designed with a minimalist, sculptural aesthetic. The table features a softly rounded oval top with naturally flowing grey and white marble veining, giving every piece a unique character.
 The substantial cylindrical marble legs echo the shape of the tabletop, creating a balanced and architectural silhouette. Its understated form and natural stone finish make it an elegant centrepiece for contemporary, modern, and luxury interiors.`,
-      dimensions: "40 x 120 x 80 cm",
+    dimensions: "40 x 120 x 80 cm",
     material: "Natural Marble",
     marbleType: "Terra Bianca Marble",
     finish: "Polished",
     weight: "150 kg approx",
     bestSeller: false,
     customizable: true,
-  }
+  },
+  {
+    id: "05",
+    slug: "marble-coffee-table05",
+    name: "Marble Coffee Table",
+    collection: "coffee-tables",
+    price: "Request Quote",
+    image: "/images/coffeetable05main.jpeg",
+    images: [
+      "/images/coffeetable05main.jpeg",
+      "/images/coffeetable05angle1.jpeg",
+      "/images/coffeetable05angle2.jpeg",
+      "/images/coffeetable05angle3.jpeg",
+      "/images/coffeetable05angle4.jpeg",
+      "/images/coffeetable05angle5.jpeg",
+    ],
+    description: "A statement-making coffee table crafted from richly veined burgundy marble, featuring a softly rounded rectangular top and four cylindrical marble legs. The dramatic natural veining brings depth and character, while the sculptural silhouette creates a refined contemporary presence. Designed to elevate sophisticated living spaces with a timeless, luxurious aesthetic.",
+    dimensions: "48W x 30D x 15H",
+    material: "Natural Marble",
+    marbleType: "Merlot Marble",
+    finish: "Polished",
+    weight: "150 kg approx",
+    bestSeller: false,
+    customizable: true,
+  },
 ];
 
 // 8. HELPER FUNCTIONS
