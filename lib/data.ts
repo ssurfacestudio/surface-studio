@@ -354,6 +354,29 @@ The substantial cylindrical marble legs echo the shape of the tabletop, creating
     bestSeller: false,
     customizable: true,
   },
+  {
+  id: "06",
+    slug: "marble-coffee-table06",
+    name: "Marble Coffee Table",
+    collection: "coffee-tables",
+    price: "Request Quote",
+    image: "/images/coffeetable06main.jpeg",
+    images: [
+      "/images/coffeetable06main.jpeg",
+      "/images/coffeetable06angle1.jpeg",
+      "/images/coffeetable06angle2.jpeg",
+      "/images/coffeetable06angle3.jpeg",
+      "/images/coffeetable06angle4.jpeg",
+    ],
+    description: "This elegant oval marble coffee table features a richly veined natural stone top with matching solid marble legs. Its sculptural silhouette, organic veining, and substantial rounded edge create a refined, contemporary look. The neutral earthy tones pair beautifully with modern, minimalist, and luxury interiors, making it a statement centrepiece for sophisticated living spaces.",
+    dimensions: "32W x 32D x 15H",
+    material: "Natural Marble",
+    marbleType: "Terra Bianca Marble",
+    finish: "Polished",
+    weight: "150 kg approx",
+    bestSeller: false,
+    customizable: true,
+  },
 ];
 
 // 8. HELPER FUNCTIONS
