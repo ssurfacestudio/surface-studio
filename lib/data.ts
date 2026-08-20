@@ -250,9 +250,9 @@ Designed for refined living spaces, this statement coffee table brings together 
     name: "Marble Coffee Table",
     collection: "coffee-tables",
     price: "Request Quote",
-    image: "/images/coffee02main.jpeg",
+    image: "/images/coffeetable02main.jpeg",
     images: [
-      "/images/coffee02main.jpeg",
+      "/images/coffeetable02main.jpeg",
       "/images/coffeetable02angle.jpeg",
     ],
     description: `A sculptural marble coffee table with a softly veined oval top, featuring an organic spherical pedestal paired with a fluted cylindrical base. Its warm ivory tones and balanced geometric forms create a refined, contemporary statement for sophisticated interiors.`,
