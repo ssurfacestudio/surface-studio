@@ -159,6 +159,15 @@ export const bestSellers = [
     image: "/images/coffee01main.jpeg",
     images: ["/images/coffee01main.jpeg"],
   },
+  {
+    id: "00",
+    slug: "marble-coffee-table00",
+    title: "Marble Coffee Table",
+    name: "Marble Coffee Table",
+    price: "Request Quote",
+    image: "/images/coffeetable00main.jpeg",
+    images: ["/images/coffeetable00main.jpeg"],
+  }
 ];
 
 // 5. EXPORT COUNTRIES
