@@ -244,6 +244,26 @@ Designed for refined living spaces, this statement coffee table brings together 
     bestSeller: true,
     customizable: true,
   },
+  {
+    id: "02",
+    slug: "marble-coffee-table02",
+    name: "Marble Coffee Table",
+    collection: "coffee-tables",
+    price: "Request Quote",
+    image: "/images/coffee02main.jpeg",
+    images: [
+      "/images/coffee02main.jpeg",
+      "/images/coffeetable02angle.jpeg",
+    ],
+    description: `A sculptural marble coffee table with a softly veined oval top, featuring an organic spherical pedestal paired with a fluted cylindrical base. Its warm ivory tones and balanced geometric forms create a refined, contemporary statement for sophisticated interiors.`,
+      dimensions: "36 x 90 x 90 cm",
+    material: "Natural Marble",
+    marbleType: "WhiteMarble",
+    finish: "Polished",
+    weight: "180 kg approx",
+    bestSeller: true,
+    customizable: true,
+  },
 ];
 
 // 8. HELPER FUNCTIONS
