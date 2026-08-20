@@ -307,6 +307,29 @@ Designed to balance organic form with contemporary elegance, this table works be
     bestSeller: false,
     customizable: true,
   },
+  {
+    id: "04",
+    slug: "marble-coffee-table04",
+    name: "Marble Coffee Table",
+    collection: "coffee-tables",
+    price: "Request Quote",
+    image: "/images/coffeetable04main.jpeg",
+    images: [
+      "/images/coffeetable04main.jpeg",
+      "/images/coffeetable04angle1.jpeg",
+      "/images/coffeetable04angle2.jpeg",
+      "/images/coffeetable04angle3.jpeg",
+    ],
+    description: `A refined oval marble coffee table designed with a minimalist, sculptural aesthetic. The table features a softly rounded oval top with naturally flowing grey and white marble veining, giving every piece a unique character.
+The substantial cylindrical marble legs echo the shape of the tabletop, creating a balanced and architectural silhouette. Its understated form and natural stone finish make it an elegant centrepiece for contemporary, modern, and luxury interiors.`,
+      dimensions: "40 x 120 x 80 cm",
+    material: "Natural Marble",
+    marbleType: "Terra Bianca Marble",
+    finish: "Polished",
+    weight: "150 kg approx",
+    bestSeller: false,
+    customizable: true,
+  }
 ];
 
 // 8. HELPER FUNCTIONS
