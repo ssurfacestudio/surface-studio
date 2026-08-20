@@ -206,14 +206,25 @@ export const collections: Collection[] = [
 // 7. PRODUCTS
 export const products: Product[] = [
   {
-    id: "1",
-    slug: "calacatta-coffee-table",
-    name: "Calacatta Marble Coffee Table",
+    id: "00",
+    slug: "Marble-coffee-table00",
+    name: "Marble Coffee Table",
     collection: "coffee-tables",
     price: "Request Quote",
-    image: "/images/table1.jpeg",
-    images: ["/images/table1.jpeg"],
-    description: "Solid Calacatta marble table hand-finished in Rajasthan.",
+    image: "/images/coffeetable00main.jpeg",
+    images: [
+      "/images/coffeetable00main.jpeg",
+      "/images/coffeetable00angle.jpeg",
+    ],
+    video: "/videos/coffeetable00video.mp4",
+    description: "A statement of sculptural elegance, the Wave Loop Coffee Table is crafted from natural marble and shaped into a seamless, flowing silhouette. Its continuous curved form creates a striking interplay of solid stone and open space, while the soft rounded edges bring a sense of movement and balance. Subtle natural veining enhances the marble’s character, making each piece uniquely its own. Designed for refined contemporary interiors, it serves as a sophisticated centrepiece for living rooms, lounges, luxury residences, and hospitality spaces.",
+    dimensions: "120 x 60 x 38 cm",
+    material: "Natural Marble",
+    marbleType: "White Marble",
+    finish: "Polished",
+    weight: "200 kg",
+    bestSeller: true,
+    customizable: true,
   },
   {
     id: "01",
