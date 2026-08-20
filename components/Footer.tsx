@@ -12,6 +12,7 @@ export default function Footer() {
           <p className="mt-4 max-w-xs font-body text-sm leading-relaxed text-charcoal/60 dark:text-ivory/60">
             Handcrafted marble furniture and décor, designed in India and
             exported to luxury homes across the world.
+            Each piece follows a carefully considered production timeline, with delivery scheduled according to the product and its individual requirements.
           </p>
           <div className="mt-6 flex gap-4 text-charcoal/60 dark:text-ivory/60">
             <a
