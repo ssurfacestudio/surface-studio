@@ -275,6 +275,29 @@ Designed for refined living spaces, this statement coffee table brings together 
     bestSeller: false,
     customizable: true,
   },
+  {
+    id: "03",
+    slug: "marble-coffee-table03",
+    name: "Marble Coffee Table",
+    collection: "coffee-tables",
+    price: "Request Quote",
+    image: "/images/coffeetable03main.jpeg",
+    images: [
+      "/images/coffeetable03main.jpeg",
+      "/images/coffeetable03angle1.jpeg",
+      "/images/coffeetable03angle2.jpeg",
+      "/images/coffeetable03angle3.jpeg",
+    ],
+    description: `A statement-making round marble coffee table crafted from richly veined natural stone. Its softly rounded tabletop and sculptural, bulbous pedestal legs create a bold yet refined silhouette, while the deep brown marble with intricate light veining brings warmth, depth, and a luxurious character to the space.
+Designed to balance organic form with contemporary elegance, this table works beautifully as a centrepiece for sophisticated living rooms, lounges, and hospitality interiors. Each piece is naturally unique, with variations in veining and tone that make every table one of a kind.`,
+      dimensions: "36 x 90 x 90 cm",
+    material: "Natural Marble",
+    marbleType: "Dark Emperador Marble",
+    finish: "Polished",
+    weight: "200 kg approx",
+    bestSeller: false,
+    customizable: true,
+  },
 ];
 
 // 8. HELPER FUNCTIONS
