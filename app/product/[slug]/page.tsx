@@ -43,7 +43,7 @@ export default async function ProductPage({
   const product = getProduct(slug);
   if (!product) notFound();
   const collection = getCollection(product.collection);
-  const related = getRelatedProducts(product.slug );
+  const related = getRelatedProducts(product.slug);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -85,7 +85,7 @@ export default async function ProductPage({
       <section className="bg-white py-10 dark:bg-charcoal md:py-14">
         <div className="mx-auto grid max-w-8xl grid-cols-1 gap-12 px-6 md:px-8 lg:grid-cols-2 lg:px-12">
           <ScrollReveal>
-            <ProductGallery images={product.images} video={product.video} name={product.name} />
+            <ProductGallery images={product.images} name={product.name} />
           </ScrollReveal>
 
           <ScrollReveal delay={0.1}>

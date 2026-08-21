@@ -15,28 +15,31 @@ export default function CollectionsPage() {
 
       <section className="bg-white py-24 dark:bg-charcoal md:py-32">
         <div className="mx-auto max-w-8xl px-6 md:px-8 lg:px-12">
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {collections.map((collection, index) => (
-                            <ScrollReveal key={collection.slug} delay={index * 0.05}>
+              <ScrollReveal key={collection.slug} delay={index * 0.05}>
                 <Link
                   href={`/collections/${collection.slug}`}
-                  className="block rounded-lg border border-charcoal/10 bg-ivory/50 p-6 transition-shadow hover:shadow-lg dark:border-ivory/10 dark:bg-charcoal-soft"
+                  className="group relative block h-[320px] overflow-hidden rounded-lg"
                 >
                   {collection.image && (
                     <img
                       src={collection.image}
                       alt={collection.name}
-                      className="mb-4 h-auto w-full rounded-lg object-cover"
+                      className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                   )}
-                  <h2 className="font-display text-2xl text-charcoal dark:text-ivory">
-                    {collection.name}
-                  </h2>
-                  {collection.description && (
-                    <p className="mt-3 font-body text-sm text-charcoal/70 dark:text-ivory/70">
-                      {collection.description}
-                    </p>
-                  )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/20 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <h2 className="font-display text-2xl text-white">
+                      {collection.name}
+                    </h2>
+                    {collection.description && (
+                      <p className="mt-2 font-body text-sm text-white/80">
+                        {collection.description}
+                      </p>
+                    )}
+                  </div>
                 </Link>
               </ScrollReveal>
             ))}

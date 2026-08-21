@@ -20,7 +20,7 @@ export default function BestSellers() {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {bestSellers.map((p, i) => (
             <ScrollReveal key={p.slug} delay={i * 0.08}>
-              <ProductCard product={{ ...p, collection: "" }} />
+              <ProductCard product={p as any} />
             </ScrollReveal>
           ))}
         </div>
