@@ -161,7 +161,7 @@ export const bestSellers = [
   },
   {
     id: "00",
-    slug: "marble-coffee-table00",
+    slug: "Marble-coffee-table00",
     title: "Marble Coffee Table",
     name: "Marble Coffee Table",
     price: "Request Quote",
