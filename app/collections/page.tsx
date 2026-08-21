@@ -1,4 +1,5 @@
 import { collections } from "@/lib/data";
+import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import ScrollReveal from "@/components/ScrollReveal";
 
@@ -16,8 +17,11 @@ export default function CollectionsPage() {
         <div className="mx-auto max-w-8xl px-6 md:px-8 lg:px-12">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {collections.map((collection, index) => (
-              <ScrollReveal key={collection.slug} delay={index * 0.05}>
-                <div className="rounded-lg border border-charcoal/10 bg-ivory/50 p-6 dark:border-ivory/10 dark:bg-charcoal-soft">
+                            <ScrollReveal key={collection.slug} delay={index * 0.05}>
+                <Link
+                  href={`/collections/${collection.slug}`}
+                  className="block rounded-lg border border-charcoal/10 bg-ivory/50 p-6 transition-shadow hover:shadow-lg dark:border-ivory/10 dark:bg-charcoal-soft"
+                >
                   {collection.image && (
                     <img
                       src={collection.image}
@@ -33,7 +37,7 @@ export default function CollectionsPage() {
                       {collection.description}
                     </p>
                   )}
-                </div>
+                </Link>
               </ScrollReveal>
             ))}
           </div>
