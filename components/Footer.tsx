@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Instagram, Facebook, Linkedin } from "lucide-react";
+import { Instagram, } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -23,12 +23,6 @@ export default function Footer() {
               className="hover:text-gold"
             >
               <Instagram className="h-5 w-5" strokeWidth={1.5} />
-            </a>
-            <a href="#" aria-label="Facebook" className="hover:text-gold">
-              <Facebook className="h-5 w-5" strokeWidth={1.5} />
-            </a>
-            <a href="#" aria-label="LinkedIn" className="hover:text-gold">
-              <Linkedin className="h-5 w-5" strokeWidth={1.5} />
             </a>
           </div>
         </div>
