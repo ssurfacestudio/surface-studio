@@ -378,6 +378,28 @@ The substantial cylindrical marble legs echo the shape of the tabletop, creating
     bestSeller: false,
     customizable: true,
   },
+  {id: "07",
+    slug: "marble-coffee-table07",
+    name: "Marble Coffee Table",
+    collection: "coffee-tables",
+    price: "Request Quote",
+    image: "/images/coffeetable07main.jpeg",
+    images: [
+      "/images/coffeetable07main.jpeg",
+      "/images/coffeetable07angle1.jpeg",
+      "/images/coffeetable07angle2.jpeg",
+      "/images/coffeetable07angle3.jpeg",
+      "/images/coffeetable07angle4.jpeg",
+    ],
+    description: "A sophisticated set of three sculptural coffee tables crafted from premium white marble, featuring organically rounded tops, varied heights, and cylindrical marble legs. The natural stone showcases distinctive grey veining, giving each piece a unique character while maintaining a cohesive look. Designed to nest and overlap beautifully, the set brings a refined architectural quality to contemporary and luxury interiors.",
+    dimensions: "121W x 95D x 38H , 84W x 77D x 44H , 61W x 49D x 50H ",
+    material: "Natural Marble",
+    marbleType: "Makrana White Marble",
+    finish: "Polished",
+    weight: "400 kg approx",
+    bestSeller: false,
+    customizable: true,
+  }
 ];
 
 // 8. HELPER FUNCTIONS
