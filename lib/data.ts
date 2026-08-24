@@ -444,7 +444,7 @@ The substantial cylindrical marble legs echo the shape of the tabletop, creating
     weight: "120 kg approx",
     bestSeller: false,
     customizable: true,
-  }
+  },
   {
     id: "10",
     slug: "marble-coffee-table10",
@@ -463,6 +463,27 @@ The substantial cylindrical marble legs echo the shape of the tabletop, creating
     marbleType: "Makrana Marble",
     finish: "Polished",
     weight: "180 kg approx",
+    bestSeller: false,
+    customizable: true,
+  },
+    {
+    id: "11",
+    slug: "marble-coffee-table11",
+    name: "Marble Coffee Table",
+    collection: "coffee-tables",
+    price: "Request Quote",
+    image: "/images/coffeetable11main.jpeg",
+    images: [
+      "/images/coffeetable11main.jpeg",
+      "/images/coffeetable11angle1.jpeg",
+      "/images/coffeetable11angle2.jpeg",
+    ],
+    description: "This monolithic square coffee table is crafted from authentic Makrana white marble, showcasing an architectural silhouette rooted in bold geometric massing. Its low-profile design features a substantial slab tabletop that transitions seamlessly into four wide, block-cut corner legs via crisp mitered edges, creating an integrated, bridge-like form. The stone's pure, luminous white base is accented with soft, feathery grey veining, brought to life through a smooth, honed satin finish that balances visual weight with quiet luxury. Styled within a warm minimalist interior characterized by muted lime-washed walls and refined micro-cement floors, the piece serves as a timeless, sculptural anchor in modern living spaces.",
+    dimensions: "100W x 100D x 36H",
+    material: "Natural Marble",
+    marbleType: "Makrana Marble",
+    finish: "Polished",
+    weight: "190 kg approx",
     bestSeller: false,
     customizable: true,
   }
