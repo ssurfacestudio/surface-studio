@@ -423,6 +423,27 @@ The substantial cylindrical marble legs echo the shape of the tabletop, creating
     weight: "200 kg approx",
     bestSeller: false,
     customizable: true,
+  },
+  {
+    id: "09",
+    slug: "marble-coffee-table09",
+    name: "Marble Coffee Table",
+    collection: "coffee-tables",
+    price: "Request Quote",
+    image: "/images/coffeetable09main.jpeg",
+    images: [
+      "/images/coffeetable09main.jpeg",
+      "/images/coffeetable09angle1.jpeg",
+      "/images/coffeetable09angle2.jpeg",
+    ],
+    description: "Crafted from premium Makrana White Marble, this tabletop features a clean ivory-white surface with subtle natural grey veining. Its softly rounded rectangular form and polished finish create an elegant, timeless look, making it ideal for sophisticated coffee tables and contemporary interiors.",
+    dimensions: "120W x 70D x 43H",
+    material: "Natural Marble",
+    marbleType: "Makrana Marble",
+    finish: "Polished",
+    weight: "120 kg approx",
+    bestSeller: false,
+    customizable: true,
   }
 ];
 
