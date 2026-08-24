@@ -445,6 +445,27 @@ The substantial cylindrical marble legs echo the shape of the tabletop, creating
     bestSeller: false,
     customizable: true,
   }
+  {
+    id: "10",
+    slug: "marble-coffee-table10",
+    name: "Marble Coffee Table",
+    collection: "coffee-tables",
+    price: "Request Quote",
+    image: "/images/coffeetable10main.jpeg",
+    images: [
+      "/images/coffeetable10main.jpeg",
+      "/images/coffeetable10angle1.jpeg",
+      "/images/coffeetable10angle2.jpeg",
+    ],
+    description: "A sculptural oval coffee table crafted from premium Makrana White Marble, featuring a softly rounded tabletop and smooth spherical pedestal legs. Its natural ivory-white surface is accented with subtle grey veining, highlighting the unique character of the stone. The polished finish adds a refined sheen, while the bold, rounded silhouette brings a contemporary yet timeless elegance to modern living spaces.",
+    dimensions: "110W x 50D x 78H",
+    material: "Natural Marble",
+    marbleType: "Makrana Marble",
+    finish: "Polished",
+    weight: "180 kg approx",
+    bestSeller: false,
+    customizable: true,
+  }
 ];
 
 // 8. HELPER FUNCTIONS
