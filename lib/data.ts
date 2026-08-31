@@ -486,7 +486,7 @@ The substantial cylindrical marble legs echo the shape of the tabletop, creating
     weight: "190 kg approx",
     bestSeller: false,
     customizable: true,
-  }
+  },
   {
     id: "12",
     slug: "marble-coffee-table12",
