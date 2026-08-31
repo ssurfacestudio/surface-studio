@@ -152,7 +152,7 @@ export default async function ProductPage({
                 You May Also Like
               </p>
               <h2 className="mt-3 font-display text-2xl text-charcoal dark:text-ivory md:text-3xl">
-                More from {collection?.name}
+                More Products
               </h2>
             </ScrollReveal>
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
