@@ -509,6 +509,28 @@ The substantial cylindrical marble legs echo the shape of the tabletop, creating
     bestSeller: false,
     customizable: true,
   },
+   {
+    id: "02",
+    slug: "side-table02",
+    name: "Marble Side Table",
+    collection: "side-tables",
+    price: "Request Quote",
+    image: "/images/sideetable02main.jpeg",
+    images: [
+      "/images/sidetable02main.jpeg",
+      "/images/sidetable02angle1.jpeg",
+      "/images/sidetable02angle2.jpeg",
+    ],
+    video: "/videos/sidetable02video.mp4",
+    description: "A minimalist square marble side table crafted in a clean, contemporary silhouette. The table features a thick rectangular tabletop, two solid side panels forming the legs, and an integrated lower shelf for added functionality and display space. The entire piece is finished in white marble with subtle natural grey veining, giving it a refined and luxurious appearance. Its simple geometric construction and seamless marble surfaces create a modern, architectural look, making it suitable as a bedside table, accent table, or living-room side table.",
+    dimensions: "30*50*30",
+    material: "Natural Marble",
+    marbleType: "Makrana Marble",
+    finish: "Polished",
+    weight: "100 kg approx",
+    bestSeller: false,
+    customizable: true,
+  },
 ];
 
 // 8. HELPER FUNCTIONS
