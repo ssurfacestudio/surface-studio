@@ -487,6 +487,28 @@ The substantial cylindrical marble legs echo the shape of the tabletop, creating
     bestSeller: false,
     customizable: true,
   },
+  {
+    id: "01",
+    slug: "side-table01",
+    name: "Marble Side Table",
+    collection: "side-tables",
+    price: "Request Quote",
+    image: "/images/sideetable01main.jpeg",
+    images: [
+      "/images/sidetable01main.jpeg",
+      "/images/sidetable01angle1.jpeg",
+      "/images/sidetable01angle2.jpeg",
+    ],
+    video: "/videos/sidetable01video.mp4",
+    description: "A refined round marble side table designed with a timeless, architectural aesthetic. The table features a smooth, generously proportioned circular top with softly rounded edges, supported by a distinctive geometric base formed from two intersecting marble panels. Crafted entirely in white marble with subtle natural grey veining, the piece highlights the beauty of natural stone while maintaining a clean and understated silhouette. The combination of the curved tabletop and structured base creates a balanced, sculptural look that works beautifully in both modern and sophisticated interiors.",
+    dimensions: "35*50*35",
+    material: "Natural Marble",
+    marbleType: "Makrana Marble",
+    finish: "Polished",
+    weight: "100 kg approx",
+    bestSeller: false,
+    customizable: true,
+  },
 ];
 
 // 8. HELPER FUNCTIONS
