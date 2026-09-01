@@ -636,6 +636,27 @@ The substantial cylindrical marble legs echo the shape of the tabletop, creating
     bestSeller: false,
     customizable: true,
   },
+   {
+    id: "02",
+    slug: "console-table02",
+    name: "Marble Console Table",
+    collection: "console-tables",
+    price: "Request Quote",
+    image: "/images/consoletable02main.jpeg",
+    images: [
+      "/images/consoletable02main.jpeg",
+      "/images/consoletable02angle1.jpeg",
+      "/images/consoletable02angle2.jpeg",
+    ],
+        description: "A sophisticated Makrana white marble console table featuring a sleek, elongated rectangular top with softly rounded edges and a substantial sculptural base. The distinctive U-shaped support design creates an open, architectural silhouette while maintaining a strong, grounded presence. Subtle natural grey veining across the marble adds depth and character, beautifully complementing its warm-white tone. Its minimalist form and monolithic construction make it an elegant statement piece for modern entryways, living rooms, hallways, and luxury interiors.",
+    dimensions: "160*40*80",
+    material: "Natural Marble",
+    marbleType: "Makrana Marble",
+    finish: "Polished",
+    weight: "250 kg approx",
+    bestSeller: false,
+    customizable: true,
+  },
 ];
 
 // 8. HELPER FUNCTIONS
