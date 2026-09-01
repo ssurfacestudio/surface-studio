@@ -531,6 +531,29 @@ The substantial cylindrical marble legs echo the shape of the tabletop, creating
     bestSeller: false,
     customizable: true,
   },
+     {
+    id: "03",
+    slug: "side-table03",
+    name: "Marble Side Table",
+    collection: "side-tables",
+    price: "Request Quote",
+    image: "/images/sideetable03main.jpeg",
+    images: [
+      "/images/sidetable03main.jpeg",
+      "/images/sidetable03angle1.jpeg",
+      "/images/sidetable03angle2.jpeg",
+      "/images/sidetable03angle3.jpeg",
+    ],
+    video: "/videos/sidetable03video.mp4",
+    description: "A sophisticated round console table crafted from premium Makrana white marble, featuring a clean architectural silhouette and timeless elegance. The smooth circular tabletop is complemented by a sculptural tapered pedestal base, creating a balanced and contemporary statement piece. Natural grey veining flows subtly across the warm-white marble surface, highlighting the authentic character of the stone. Its minimalist form and refined finish make it ideal for entryways, living spaces, hallways, and luxury interiors.",
+    dimensions: "20*44*36",
+    material: "Natural Marble",
+    marbleType: "Makrana Marble",
+    finish: "Polished",
+    weight: "110 kg approx",
+    bestSeller: false,
+    customizable: true,
+  },
 ];
 
 // 8. HELPER FUNCTIONS
